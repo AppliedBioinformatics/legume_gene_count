@@ -1,5 +1,5 @@
 ##input: Blast file in outfmt 6 
-usage: python selfblast_hsp_filter.R blast_file.tsv
+#usage: Rscript selfblast_hsp_filter.R blast_file.tsv
 
 library(tidyverse)
 library(data.table)
