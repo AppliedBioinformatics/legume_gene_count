@@ -7,4 +7,5 @@
 <br>
 python selfblast_hsp_filter.R<br>
 python network_gml.py selfblast_output_10hsp_blast_filtered_nodes.csv selfblast_output_10hsp_blast_filtered_edge.csv<br>
-python edgelist_generator.py network.gml
+python edgelist_generator.py network.gml<br>
+Rscript legume_rep_gene_filter.R
