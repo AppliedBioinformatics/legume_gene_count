@@ -1,4 +1,4 @@
-##input: Output of selfblast_hsp_filter.R<br>
+##input: Output of selfblast_hsp_filter.R 
 #usage: python selfblast_hsp_filter.R network_gml.py selfblast_output_10hsp_blast_filtered_nodes.csv selfblast_output_10hsp_blast_filtered_edge.csv<br><br>
 
 import networkx as nx
