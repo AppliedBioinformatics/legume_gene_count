@@ -13,7 +13,7 @@ Rscript legume_rep_gene_filter.R<br><br>
 python network_generator.py network.gml <br><br>
 #more than one species<br>
 #concatenate all the representative genes together in one file.<br>
-##Blast all the representatives against themselves using using blastx (Run BLAST with these parameters -outfmt "6 qseqid sseqid sscinames scomnames staxid pident length mismatch gapopen qstart qend sstart send ppos evalue bitscore")
+##Blast all the representatives against themselves using using blastx (Run BLAST with these parameters -outfmt "6 qseqid sseqid sscinames scomnames staxid pident length mismatch gapopen qstart qend sstart send ppos evalue bitscore")<br><br>
 python selfblast_hsp_filter.R all_species_blast_file.tsv<br>
 python network_gml.py selfblast_output_10hsp_blast_filtered_nodes.csv selfblast_output_10hsp_blast_filtered_edge.csv<br>
 python edgelist_generator.py network.gml<br>
